@@ -2,6 +2,20 @@
 
 Julie Montoux
 
+## INIT
+- REACT
+- BACK 
+   - sqlite en dev
+   - python
+        - Créer ton API
+             - Swagger
+        - Appeler ta base
+- DEVOPS
+  - CI/CD (déploiement)
+- WIS
+  - UI/UX (justification doc entreprise)
+  - Charte graphique -> accessibilité (handicap) RGAA
+
 ## Sujet
 
 ### Contexte
@@ -10,7 +24,7 @@ L’entreprise EARL Villemur tient une vente directe de fruits. Elle est gérée
 
 ### Cahier des charges
 
-Création d’une application android téléchargeable appelée Agriventure.
+Création d’une app web appelée Agriventure.
 Elle permettrait de :
 
 - Créer une commande avec ses produits, son prix, sa ventilation de paiement, le vendeur, le reçu par mail à l’acheteur
