@@ -1,0 +1,195 @@
+.admin-panel {
+    padding: 1.5rem;
+    background-color: #252836;
+    min-height: 100vh;
+    color: #ffffff;
+}
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+  
+  .admin-header h1 {
+    font-size: 1.75rem;
+    margin: 0;
+    color: #ffffff;
+}
+  
+  .user-profile .p-avatar {
+    background-color: #ff9800;
+    color: #ffffff;
+}
+  
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+  
+  .stat-card {
+    background-color: #2B2E3D !important;
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out;
+}
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+}
+  
+  .stat-content {
+    display: flex;
+    align-items: center;
+}
+  
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(255, 152, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+  
+  .stat-icon i {
+    font-size: 1.5rem;
+    color: #ff9800;
+}
+  
+  .stat-info {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .stat-title {
+    font-size: 0.875rem;
+    color: #a0a3bd;
+    margin-bottom: 0.25rem;
+}
+  
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+  
+  .orders-section {
+    background-color: #2B2E3D;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+  
+  .orders-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+  
+  .orders-header h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #ffffff;
+}
+  
+  .orders-table {
+}
+  
+  .orders-table .p-datatable-thead > tr > th {
+    background-color: #2B2E3D !important;
+    color: #a0a3bd !important;
+    border: none !important;
+    font-weight: 500;
+    padding: 1rem;
+}
+  
+  .orders-table .p-datatable-tbody > tr {
+    background-color: #2B2E3D !important;
+    transition: background-color 0.2s;
+}
+  
+  .orders-table .p-datatable-tbody > tr:hover {
+    background-color: #3a3e5c !important;
+}
+  
+  .orders-table .p-datatable-tbody > tr > td {
+    border: none !important;
+    border-top: 1px solid #3a3e5c !important;
+    color: #ffffff;
+    padding: 1rem;
+}
+  
+  .status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: inline-block;
+}
+  
+  .status-réussie {
+    background-color: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+}
+  
+  .status-en-cours {
+    background-color: rgba(255, 152, 0, 0.2);
+    color: #FF9800;
+}
+  
+  .status-annulée {
+    background-color: rgba(244, 67, 54, 0.2);
+    color: #F44336;
+}
+  
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+  
+  .receipt-preview {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 2rem;
+    border-radius: 8px;
+}
+  
+  .receipt-preview h3 {
+    margin-top: 0;
+    color: #333333;
+}
+  
+  .p-dialog .p-dialog-header {
+    background-color: #2c2f48;
+    color: #ffffff;
+    border: none;
+}
+  
+  .p-dialog .p-dialog-content {
+    background-color: #2c2f48;
+    color: #ffffff;
+    border: none;
+}
+  
+  .p-dialog .p-dialog-footer {
+    background-color: #2c2f48;
+    color: #ffffff;
+    border: none;
+    padding: 1rem;
+}
+
+  .p-paginator {
+    background: #ffffff00;
+    color: #141b29;
+    border: solid #f3f4f6;
+    border-width: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;  
+}

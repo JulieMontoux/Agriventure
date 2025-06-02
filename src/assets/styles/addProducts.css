@@ -1,0 +1,55 @@
+.transparent-table .p-datatable {
+  background-color: #252836 !important;
+  color: white !important;
+  border: none;
+}
+
+.transparent-table .p-datatable-thead > tr > th,
+.transparent-table .p-datatable-tbody > tr > td {
+  background-color: #252836 !important;
+  color: white !important;
+  border-color: #3c3f52 !important;
+}
+
+.transparent-table .p-datatable-tbody > tr:hover {
+  background-color: #2e2f40 !important;
+}
+
+.p-inputtext,
+.p-dropdown,
+.p-fileupload,
+.p-inputnumber {
+  background-color: #1f1f2e !important;
+  color: white !important;
+  border: 1px solid #3c3f52 !important;
+}
+
+.p-dropdown-panel {
+  background-color: #2a2c3d;
+  color: white;
+}
+
+.p-chip {
+  background-color: #3b82f6 !important;
+  color: white !important;
+}
+
+.p-tag-danger {
+  background-color: #ef4444 !important;
+}
+
+.p-tag-warning {
+  background-color: #f59e0b !important;
+}
+
+.p-tag-success {
+  background-color: #22c55e !important;
+}
+
+
+.transparent-table .p-datatable-header {
+  background-color: #252836 !important;
+  color: white !important;
+  border: none !important;
+  padding: 1rem;
+}

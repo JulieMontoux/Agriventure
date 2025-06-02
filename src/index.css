@@ -1,0 +1,25 @@
+html, body, #root {
+
+    background-color: #252836;
+    color: #ffffff;
+  
+  }
+  
+.p-tabmenu,
+.p-tabmenu .p-tabmenu-nav,
+.p-tabmenu .p-tabmenu-nav li,
+.p-tabmenu .p-tabmenu-nav li .p-menuitem-link {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.p-sidebar {
+  background-color: #1F1D2B !important;
+}
+
+.p-sidebar-mask {
+  background-color: rgba(0, 0, 0, 0.7) !important; 
+}
+
+
