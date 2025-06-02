@@ -4,6 +4,11 @@
 
 Agriventure est une solution complète de digitalisation pour la vente directe de fruits, remplaçant les tableaux papier par une interface moderne et intuitive. Le projet comprend un système de point de vente (POS), un tableau de bord administrateur, la gestion des stocks et la génération de rapports automatisés.
 
+/!\ Pour initialiser projet : 
+- Importer les variables d'environnements dans un .env à la racine du projet
+- Importer la BDD MySQL (Disponible dans /app/)
+- Identifiants de bases administrateur : admin:admin (Modifiable dans les settings de l'application)
+
 ---
 
 ## 📋 Table des matières
